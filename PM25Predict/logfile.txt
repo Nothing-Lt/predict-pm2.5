@@ -1,0 +1,332 @@
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/02/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170102weather
+[In Data.GetDataSource weather object Error]0 2
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/03/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170103weather
+[In Data.GetDataSource weather object Error]0 3
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/05/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170105weather
+[In Data.GetDataSource weather object Error]0 5
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/06/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170106weather
+[In Data.GetDataSource weather object Error]0 6
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/07/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170107weather
+[In Data.GetDataSource weather object Error]0 7
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/08/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170108weather
+[In Data.GetDataSource weather object Error]0 8
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/09/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170109weather
+[In Data.GetDataSource weather object Error]0 9
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/10/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170110weather
+[In Data.GetDataSource weather object Error]0 10
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/11/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170111weather
+[In Data.GetDataSource weather object Error]0 11
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/02/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170102weather
+[In Data.GetDataSource weather object Error]0 2
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/03/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170103weather
+[In Data.GetDataSource weather object Error]0 3
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/05/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170105weather
+[In Data.GetDataSource weather object Error]0 5
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/06/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170106weather
+[In Data.GetDataSource weather object Error]0 6
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/07/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170107weather
+[In Data.GetDataSource weather object Error]0 7
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/08/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170108weather
+[In Data.GetDataSource weather object Error]0 8
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/09/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170109weather
+[In Data.GetDataSource weather object Error]0 9
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/10/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170110weather
+[In Data.GetDataSource weather object Error]0 10
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/11/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170111weather
+[In Data.GetDataSource weather object Error]0 11
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/13/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170113weather
+[In Data.GetDataSource weather object Error]0 13
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/13/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170113weather
+[In Data.GetDataSource weather object Error]0 13
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/15/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170115weather
+[In Data.GetDataSource weather object Error]0 15
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/15/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/16/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170115weather
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170116weather
+[In Data.GetDataSource weather object Error]0 15
+[In Data.GetDataSource weather object Error]0 16
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/16/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/17/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170116weather
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170117weather
+[In Data.GetDataSource weather object Error]0 16
+[In Data.GetDataSource weather object Error]0 17
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/17/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170117weather
+[In Data.GetDataSource weather object Error]0 17
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/18/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170118weather
+[In Data.GetDataSource weather object Error]0 18
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/18/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170118weather
+[In Data.GetDataSource weather object Error]0 18
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/19/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170119weather
+[In Data.GetDataSource weather object Error]0 19
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/19/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170119weather
+[In Data.GetDataSource weather object Error]0 19
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/20/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170120weather
+[In Data.GetDataSource weather object Error]0 20
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/20/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170120weather
+[In Data.GetDataSource weather object Error]0 20
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/21/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170121weather
+[In Data.GetDataSource weather object Error]0 21
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/21/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170121weather
+[In Data.GetDataSource weather object Error]0 21
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/22/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170122weather
+[In Data.GetDataSource weather object Error]0 22
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/22/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170122weather
+[In Data.GetDataSource weather object Error]0 22
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/23/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170123weather
+[In Data.GetDataSource weather object Error]0 23
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/24/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170124weather
+[In Data.GetDataSource weather object Error]0 24
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/25/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170125weather
+[In Data.GetDataSource weather object Error]0 25
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/26/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170126weather
+[In Data.GetDataSource weather object Error]0 26
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/27/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170127weather
+[In Data.GetDataSource weather object Error]0 27
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/28/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170128weather
+[In Data.GetDataSource weather object Error]0 28
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/29/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170129weather
+[In Data.GetDataSource weather object Error]0 29
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/30/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170130weather
+[In Data.GetDataSource weather object Error]0 30
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/31/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170131weather
+[In Data.GetDataSource weather object Error]0 31
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/02/01/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170201weather
+[In Data.GetDataSource weather object Error]1 1
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/02/02/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170202weather
+[In Data.GetDataSource weather object Error]1 2
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/02/03/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170203weather
+[In Data.GetDataSource weather object Error]1 3
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/02/04/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170204weather
+[In Data.GetDataSource weather object Error]1 4
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/02/05/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170205weather
+[In Data.GetDataSource weather object Error]1 5
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/02/06/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170206weather
+[In Data.GetDataSource weather object Error]1 6
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/02/08/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170208weather
+[In Data.GetDataSource weather object Error]1 8
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/02/09/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170209weather
+[In Data.GetDataSource weather object Error]1 9
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/02/10/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170210weather
+[In Data.GetDataSource weather object Error]1 10
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/02/11/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170211weather
+[In Data.GetDataSource weather object Error]1 11
+[In Data.GetDataSource weather object Error]0 2
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/03/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170103weather
+[In Data.GetDataSource weather object Error]0 3
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/05/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170105weather
+[In Data.GetDataSource weather object Error]0 5
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/06/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170106weather
+[In Data.GetDataSource weather object Error]0 6
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/07/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170107weather
+[In Data.GetDataSource weather object Error]0 7
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/08/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170108weather
+[In Data.GetDataSource weather object Error]0 8
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/09/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170109weather
+[In Data.GetDataSource weather object Error]0 9
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/10/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170110weather
+[In Data.GetDataSource weather object Error]0 10
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/11/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170111weather
+[In Data.GetDataSource weather object Error]0 11
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/13/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170113weather
+[In Data.GetDataSource weather object Error]0 13
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/15/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170115weather
+[In Data.GetDataSource weather object Error]0 15
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/16/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170116weather
+[In Data.GetDataSource weather object Error]0 16
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/17/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170117weather
+[In Data.GetDataSource weather object Error]0 17
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/18/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170118weather
+[In Data.GetDataSource weather object Error]0 18
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/19/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170119weather
+[In Data.GetDataSource weather object Error]0 19
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/20/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170120weather
+[In Data.GetDataSource weather object Error]0 20
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/01/21/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170121weather
+[In Data.GetDataSource weather object Error]0 21
+[In Data.GetDataSource weather object Error]0 2
+[In Data.GetDataSource weather object Error]0 22
+[In Data.GetDataSource weather object Error]0 23
+[In Data.GetDataSource weather object Error]2 10
+[In Data.GetDataSource weather object Error]2 11
+[In Data.GetDataSource weather object Error]2 12
+[In Data.GetDataSource weather object Error]2 13
+[In Data.GetDataSource weather object Error]2 14
+[In Data.GetDataSource weather object Error]2 15
+[In Data.GetDataSource weather object Error]2 16
+[In Data.GetDataSource weather object Error]2 17
+[In Data.GetDataSource weather object Error]2 18
+[In Data.GetDataSource weather object Error]2 19
+[In Data.GetDataSource weather object Error]2 20
+[In Data.GetDataSource weather object Error]2 21
+[In Data.GetDataSource weather object Error]2 22
+[In Data.GetDataSource weather object Error]2 23
+[In Data.GetDataSource weather object Error]2 24
+[In Data.GetDataSource weather object Error]2 25
+[In Data.GetDataSource weather object Error]2 26
+[In Data.GetDataSource weather object Error]2 27
+[In Data.GetDataSource weather object Error]2 28
+[In Data.GetDataSource weather object Error]2 29
+[In Data.GetDataSource weather object Error]2 30
+[In Data.GetDataSource weather object Error]0 2
+[In Data.GetDataSource weather object Error]0 22
+[In Data.GetDataSource weather object Error]0 23
+[In Data.GetDataSource weather object Error]2 10
+[In Data.GetDataSource weather object Error]2 11
+[In Data.GetDataSource weather object Error]2 12
+[In Data.GetDataSource weather object Error]2 13
+[In Data.GetDataSource weather object Error]2 14
+[In Data.GetDataSource weather object Error]2 15
+[In Data.GetDataSource weather object Error]2 16
+[In Data.GetDataSource weather object Error]2 17
+[In Data.GetDataSource weather object Error]2 18
+[In Data.GetDataSource weather object Error]2 19
+[In Data.GetDataSource weather object Error]2 20
+[In Data.GetDataSource weather object Error]2 21
+[In Data.GetDataSource weather object Error]2 22
+[In Data.GetDataSource weather object Error]2 23
+[In Data.GetDataSource weather object Error]2 24
+[In Data.GetDataSource weather object Error]2 25
+[In Data.GetDataSource weather object Error]2 26
+[In Data.GetDataSource weather object Error]2 27
+[In Data.GetDataSource weather object Error]2 28
+[In Data.GetDataSource weather object Error]2 29
+[In Data.GetDataSource weather object Error]2 30
+[In Data.GetDataSource weather object Error]2 31
+[In Data.GetDataSource weather object Error]3 1
+[In Data.GetDataSource weather object Error]3 2
+[In Http.Get Error with get page] https://www.wunderground.com/history/airport/ZBAA/2017/04/03/DailyHistory.html?req_city=Beijing&req_statename=China&reqdb.zip=00000&reqdb.magic=1&reqdb.wmo=54511
+[In WeatherUnderground.HistoryWeather FILE NOT FOUND]Beijing20170403weather
+[In Data.GetDataSource weather object Error]3 3
+[In Data.GetDataSource weather object Error]3 4
+[In Data.GetDataSource weather object Error]3 5
+[In Data.GetDataSource weather object Error]3 6
+[In Data.GetDataSource weather object Error]3 7
+[In Data.GetDataSource weather object Error]3 8
+[In Data.GetDataSource weather object Error]3 9
+[In Data.GetDataSource weather object Error]2 21
+[In Data.GetDataSource weather object Error]2 21
+[In Data.GetDataSource weather object Error]2 21
+[In Data.GetDataSource weather object Error]2 21
+[In Data.GetDataSource weather object Error]0 13
+[In Data.GetDataSource weather object Error]2 16
+[In Data.GetDataSource weather object Error]5 16
+[In Data.GetDataSource weather object Error]5 20
+[In Data.GetDataSource weather object Error]11 2
+[In Data.GetDataSource weather object Error]0 2
+[In Data.GetDataSource weather object Error]0 22
+[In Data.GetDataSource weather object Error]0 23
+[In Data.GetDataSource weather object Error]2 10
+[In Data.GetDataSource weather object Error]2 11
+[In Data.GetDataSource weather object Error]2 12
+[In Data.GetDataSource weather object Error]2 13
+[In Data.GetDataSource weather object Error]2 14
+[In Data.GetDataSource weather object Error]2 15
+[In Data.GetDataSource weather object Error]2 16
+[In Data.GetDataSource weather object Error]2 17
+[In Data.GetDataSource weather object Error]2 18
+[In Data.GetDataSource weather object Error]2 19
+[In Data.GetDataSource weather object Error]2 20
+[In Data.GetDataSource weather object Error]2 22
+[In Data.GetDataSource weather object Error]2 23
+[In Data.GetDataSource weather object Error]2 24
+[In Data.GetDataSource weather object Error]2 25
+[In Data.GetDataSource weather object Error]2 26
+[In Data.GetDataSource weather object Error]2 27
+[In Data.GetDataSource weather object Error]2 28
+[In Data.GetDataSource weather object Error]2 29
+[In Data.GetDataSource weather object Error]2 30
+[In Data.GetDataSource weather object Error]2 31
+[In Data.GetDataSource weather object Error]3 1
+[In Data.GetDataSource weather object Error]3 2
+[In Data.GetDataSource weather object Error]3 3
+[In Data.GetDataSource weather object Error]3 4
+[In Data.GetDataSource weather object Error]3 5
+[In Data.GetDataSource weather object Error]3 6
+[In Data.GetDataSource weather object Error]3 7
+[In Data.GetDataSource weather object Error]3 8
+[In Data.GetDataSource weather object Error]3 9
+[In Data.GetDataSource weather object Error]0 13
+[In Data.GetDataSource weather object Error]2 16
+[In Data.GetDataSource weather object Error]5 16
+[In Data.GetDataSource weather object Error]5 20
+[In Data.GetDataSource weather object Error]0 13
+[In Data.GetDataSource weather object Error]2 16
+[In Data.GetDataSource weather object Error]0 13
+[In Data.GetDataSource weather object Error]2 16
+[In Data.GetDataSource weather object Error]0 13
+[In Data.GetDataSource weather object Error]2 16
+[In Data.GetDataSource weather object Error]0 13
+[In Data.GetDataSource weather object Error]0 13
+[In Data.GetDataSource weather object Error]2 16
+[In Data.GetDataSource weather object Error]5 16
+[In Data.GetDataSource weather object Error]5 20
+[In Data.GetDataSource weather object Error]11 2

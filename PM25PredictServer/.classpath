@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_5_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/json_jar/json_jar/json-lib-2.2.3-jdk15.jar"/>
+	<classpathentry kind="lib" path="C:/json_jar/json_jar/commons-beanutils-1.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/json_jar/json_jar/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/json_jar/json_jar/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/json_jar/json_jar/commons-lang-2.3.jar"/>
+	<classpathentry kind="lib" path="C:/json_jar/json_jar/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/json_jar/json_jar/ezmorph-1.0.3.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/PM25Predict"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>
