@@ -59,9 +59,13 @@
 #define SSD1306_VERTICAL_AND_LEFT_HORIZONTAL_SCROLL 0x2A
 
 #define _BV(n) 1<<n
+#define pgm_read_byte(addr) (*(const unsigned char*)(addr))
 
 void command(unsigned char data);
-void init();
+void init(unsigned int vccstate);
 void display();
 void write_data(unsigned char data);
+void run_char(char buff[]);
+void draw_pixal(unsigned short x,unsigned short y,unsigned short color);
+void draw_bitmap(short x,short y,const unsigned char *bitmap,short w,short h,unsigned short color);
 #endif

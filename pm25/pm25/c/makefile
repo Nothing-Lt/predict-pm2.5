@@ -1,2 +1,3 @@
 first:
-	g++ *.cpp -o ../a.out -lwiringPi -lwiringPiDev
+	g++ *.cpp -lwiringPi -lwiringPiDev
+

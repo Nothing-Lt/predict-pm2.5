@@ -1,0 +1,5 @@
+server ntp.fudan.edu.cn iburst perfer
+server time.asia.apple.com iburst
+server asia.pool.ntp.org iburst
+server ntp.nict.jp iburst
+server time.nist.gov iburst

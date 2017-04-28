@@ -5,34 +5,35 @@
 #include <time.h>
 #include <wiringPi.h>
 #include "SSD1306.h"
+#include "font.h"
 
-
-void main()
+int main()
 {
 	
 	time_t t;
 	struct tm *p;
 	
-	double today_pm25,tomorrow_pm25,past_tomorrow_pm25;
-	char buff[1024];
+	double today_pm25,tomorrow_pm25,past_tomorrow_pm25=-1;
 	char stat='c';
 
 	Data d;
 	double tt[VALUE_NUMBER];
 	char buff[BUFFER_SIZE]={0};
 	
-	if(	wiringPiSetup()<0)
+	if(wiringPiSetup()<0)
 	{
-		cout<<"wiringPi Err"<<endl;
+		cout<<"Err"<<endl;
 	}
-	
+	init(SSD1306_SWITCHCAPVCC);
+	run_char("a12.56");
+	display();
 	while(1)
 	{
 		time(&t);
 		p=localtime(&t);
-		if(0==p->min)
+		if(0==p->tm_min)
 		{
-			if(7==pm->hour)
+			if(7==p->tm_hour)
 			{
 				system("python Getpollution.py");
 				d.GetDataFromFile();
@@ -40,16 +41,16 @@ void main()
 
 				printf("AM");
 				today_pm25=tt[5]; //run download function
-				sprintf(buff,"a%.2f",tomorrow_pm25);
+				sprintf(buff,"a%.2f",today_pm25);
 				run_char(buff);
 			}
-			else if(19==pm->hour)
+			else if(19==p->tm_hour)
 			{
 				printf("PM");
 				
 				system("python Getpollution.py");
 				d.GetDataFromFile();
-				d.GetValue(tt)
+				d.GetValue(tt);
 				if(!d.GetNormalizedValue(tt))
 				{
 					cout<<"Err"<<endl;
@@ -66,7 +67,15 @@ void main()
 				while(!p.Load());
 				p.SetInputValue(tt,VALUE_NUMBER);
 				tomorrow_pm25=p.Run()*PART_PM25+MIN_PM25;
-				
+				if(-1==past_tomorrow_pm25)
+				{
+					past_tomorrow_pm25=tomorrow_pm25;
+					today_pm25=tt[5]; //run download function
+					sprintf(buff,"a%.2f",today_pm25);
+					run_char(buff);
+					continue;
+				}				
+
 				if(tomorrow_pm25>past_tomorrow_pm25)
 				{
 					stat='b';
@@ -85,5 +94,7 @@ void main()
 			}
 			
 		}
+		sleep(1);
 	}
+	return 0;
 }
