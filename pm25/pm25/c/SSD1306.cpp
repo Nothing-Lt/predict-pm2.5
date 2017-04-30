@@ -140,6 +140,7 @@ void run_char(char data[])
 	}
 	
 	clear_screen();
+	display();
 	
 	draw_bitmap(0, 0,P,  ENG_WORD_WIDTH,HAN_WORD_HEIGHT,WHITE);
 	draw_bitmap(8, 0,M,  ENG_WORD_WIDTH,HAN_WORD_HEIGHT,WHITE);
@@ -150,7 +151,7 @@ void run_char(char data[])
 	draw_bitmap(0, 16,JIN,HAN_WORD_WIDTH,HAN_WORD_HEIGHT,WHITE);
 	draw_bitmap(16,16,RI, HAN_WORD_WIDTH,HAN_WORD_HEIGHT,WHITE);
 	draw_bitmap(32,16,SH, ENG_WORD_WIDTH,ENG_WORD_HEIGHT,WHITE);
-	for(i=1;data[i]!=';'&&data[i]!='\n';i++)
+	for(i=1;data[i]!=';'&&data[i]!='\n'&&data[i]!='\0';i++)
 	{
 		if('0'==data[i])
 		{
@@ -191,6 +192,10 @@ void run_char(char data[])
 		else if('9'==data[i])                 
 		{                                     
 			draw_bitmap(48+8*i,16,N9,ENG_WORD_WIDTH,ENG_WORD_HEIGHT,WHITE);
+		}
+		else if('.'==data[i])
+		{	
+			draw_bitmap(48+8*i,16,DOT,ENG_WORD_WIDTH,ENG_WORD_HEIGHT,WHITE);
 		}
 	}
 	if(';'==data[i])

@@ -2,7 +2,7 @@ import urllib
 import json
 
 strFileName="Location"
-strURL="http://192.168.1.112:8080/PM25PredictServer/getlocation"
+strURL="http://192.168.43.106:8080/PM25PredictServer/getlocation"
 
 con=urllib.urlopen(strURL)
 str_json=con.read()

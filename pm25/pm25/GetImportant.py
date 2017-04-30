@@ -1,6 +1,6 @@
 import urllib
 
-strURL='http://192.168.1.112:8080/PM25PredictServer/getimport?city='
+strURL='http://192.168.43.106:8080/PM25PredictServer/getimport?city='
 
 strCity='Beijing'
 file_t=open('Location')

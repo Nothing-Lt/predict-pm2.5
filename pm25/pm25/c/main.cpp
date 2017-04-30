@@ -7,6 +7,43 @@
 #include "SSD1306.h"
 #include "font.h"
 
+double get_current_pm25()
+{
+	Data d;
+	double tt[VALUE_NUMBER];
+	system("python Getpollution.py");
+	d.GetDataFromFile();
+	d.GetValue(tt);
+
+	printf("AM");
+	return tt[5];
+}
+double predict_pm25()
+{
+	Data d;
+	double tt[VALUE_NUMBER];
+	printf("PM");
+				
+	system("python Getpollution.py");
+	d.GetDataFromFile();
+	d.GetValue(tt);
+	if(!d.GetNormalizedValue(tt))
+	{
+		cout<<"Err"<<endl;
+		exit(0);
+	}
+	cout<<setiosflags(ios::fixed); 
+	for(int i=0;i<VALUE_NUMBER;i++)
+	{
+		cout<<i<<endl;
+		cout<<tt[i];
+	}
+	RBFPredict p;
+	while(!p.Load());
+	p.SetInputValue(tt,VALUE_NUMBER);
+	return p.Run()*PART_PM25+MIN_PM25;
+}
+
 int main()
 {
 	
@@ -16,16 +53,20 @@ int main()
 	double today_pm25,tomorrow_pm25,past_tomorrow_pm25=-1;
 	char stat='c';
 
-	Data d;
 	double tt[VALUE_NUMBER];
 	char buff[BUFFER_SIZE]={0};
+	
+	system("python getlocation.py");
+	system("python GetImportant.py");
 	
 	if(wiringPiSetup()<0)
 	{
 		cout<<"Err"<<endl;
 	}
 	init(SSD1306_SWITCHCAPVCC);
-	run_char("a12.56");
+	today_pm25=get_current_pm25();
+	sprintf(buff,"a%.2f",today_pm25);
+	run_char(buff);
 	display();
 	while(1)
 	{
@@ -35,42 +76,17 @@ int main()
 		{
 			if(7==p->tm_hour)
 			{
-				system("python Getpollution.py");
-				d.GetDataFromFile();
-				d.GetValue(tt);
-
-				printf("AM");
-				today_pm25=tt[5]; //run download function
+				today_pm25=get_current_pm25();
 				sprintf(buff,"a%.2f",today_pm25);
 				run_char(buff);
 			}
 			else if(19==p->tm_hour)
 			{
-				printf("PM");
-				
-				system("python Getpollution.py");
-				d.GetDataFromFile();
-				d.GetValue(tt);
-				if(!d.GetNormalizedValue(tt))
-				{
-					cout<<"Err"<<endl;
-					sprintf(buff,"a%s","11111");
-					run_char(buff);
-				}
-				cout<<setiosflags(ios::fixed); 
-				for(int i=0;i<VALUE_NUMBER;i++)
-				{
-					cout<<i<<endl;
-					cout<<tt[i];
-				}
-				RBFPredict p;
-				while(!p.Load());
-				p.SetInputValue(tt,VALUE_NUMBER);
-				tomorrow_pm25=p.Run()*PART_PM25+MIN_PM25;
+				tomorrow_pm25=predict_pm25();
 				if(-1==past_tomorrow_pm25)
 				{
 					past_tomorrow_pm25=tomorrow_pm25;
-					today_pm25=tt[5]; //run download function
+					today_pm25=get_current_pm25(); //run download function
 					sprintf(buff,"a%.2f",today_pm25);
 					run_char(buff);
 					continue;
