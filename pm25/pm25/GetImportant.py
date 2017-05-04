@@ -1,11 +1,13 @@
 import urllib
 
+strLocationFileName='Location'
+strImportantFileName='Important'
 strURL='http://192.168.43.106:8080/PM25PredictServer/getimport?city='
 
-if not os.path.exists('Location'):
+if not os.path.exists(strLocationFileName):
   print 'No Location'
   exit()
-if os.path.exists('Important'): 
+if os.path.exists(strImportantFileName): 
   exit()
 strCity='Beijing'
 file_t=open('Location')
