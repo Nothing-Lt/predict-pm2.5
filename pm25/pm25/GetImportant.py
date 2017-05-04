@@ -2,7 +2,7 @@ import urllib
 
 strURL='http://192.168.43.106:8080/PM25PredictServer/getimport?city='
 
-if !os.path.exists('Location'):
+if not os.path.exists('Location'):
   print 'No Location'
   exit()
 if os.path.exists('Important'): 
