@@ -4,6 +4,8 @@ import json
 strFileName="Location"
 strURL="http://192.168.43.106:8080/PM25PredictServer/getlocation"
 
+if os.path.exists(strFileName):
+    exit()
 con=urllib.urlopen(strURL)
 str_json=con.read()
 json_obj=json.loads(str_json)
