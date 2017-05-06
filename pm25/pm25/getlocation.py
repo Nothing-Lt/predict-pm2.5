@@ -1,5 +1,6 @@
 import urllib
 import json
+import os
 
 strFileName="Location"
 strURL="http://192.168.43.106:8080/PM25PredictServer/getlocation"

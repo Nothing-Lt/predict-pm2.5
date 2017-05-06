@@ -1,4 +1,5 @@
 import urllib
+import os
 
 strLocationFileName='Location'
 strImportantFileName='Important'
