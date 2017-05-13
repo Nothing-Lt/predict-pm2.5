@@ -211,17 +211,17 @@ void run_char(char data[])
 		if('b'==data[i])
 		{
 			draw_bitmap(32,48,SHENG,HAN_WORD_HEIGHT,HAN_WORD_WIDTH,WHITE);
-			draw_bitmap(32,48,GAO,HAN_WORD_HEIGHT,HAN_WORD_WIDTH,WHITE);
+			draw_bitmap(48,48,GAO,HAN_WORD_HEIGHT,HAN_WORD_WIDTH,WHITE);
 		}
 		else if('c'==data[i])
 		{
 			draw_bitmap(32,48,BU,HAN_WORD_HEIGHT,HAN_WORD_WIDTH,WHITE);
-			draw_bitmap(32,48,BIAN,HAN_WORD_HEIGHT,HAN_WORD_WIDTH,WHITE);
+			draw_bitmap(48,48,BIAN,HAN_WORD_HEIGHT,HAN_WORD_WIDTH,WHITE);
 		}
 		else if('d'==data[i])
 		{
 			draw_bitmap(32,48,JIANG,HAN_WORD_HEIGHT,HAN_WORD_WIDTH,WHITE);
-			draw_bitmap(32,48,DI,HAN_WORD_HEIGHT,HAN_WORD_WIDTH,WHITE);
+			draw_bitmap(48,48,DI,HAN_WORD_HEIGHT,HAN_WORD_WIDTH,WHITE);
 		}
 	}
 	display();
