@@ -133,6 +133,7 @@ void clear_screen()
 
 void run_char(char data[])
 {
+	cout<<data<<endl;
 	int i;
 	if('a'!=data[0])
 	{
@@ -141,6 +142,8 @@ void run_char(char data[])
 	
 	clear_screen();
 	display();
+	
+	for(i=0;i<100000;i++);
 	
 	draw_bitmap(0, 0,P,  ENG_WORD_WIDTH,HAN_WORD_HEIGHT,WHITE);
 	draw_bitmap(8, 0,M,  ENG_WORD_WIDTH,HAN_WORD_HEIGHT,WHITE);

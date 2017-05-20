@@ -6,6 +6,7 @@
 #include <wiringPi.h>
 #include "SSD1306.h"
 #include "font.h"
+#include "tools.h"
 
 double get_current_pm25()
 {
@@ -18,13 +19,20 @@ double get_current_pm25()
 	printf("AM");
 	return tt[5];
 }
-double predict_pm25()
+double predict_pm25(int choice)
 {
 	Data d;
 	double tt[VALUE_NUMBER];
 	printf("PM");
-				
-	system("python Getpollution.py");
+	
+	if(!choice)
+	{
+		system("python TianQiHouBao.py");
+	}
+	else
+	{
+		system("python Getpollution.py");
+	}
 	d.GetDataFromFile();
 	d.GetValue(tt);
 	if(!d.GetNormalizedValue(tt))
@@ -44,18 +52,41 @@ double predict_pm25()
 	return p.Run()*PART_PM25+MIN_PM25;
 }
 
+char run()
+{
+	double past_tomorrow_pm25=-1,tomorrow_pm25=-1;
+	char stat='c';
+	past_tomorrow_pm25=predict_pm25(0);
+	tomorrow_pm25=predict_pm25(1);
+	
+	if(tomorrow_pm25>past_tomorrow_pm25)
+	{
+		stat='b';
+	}
+	if(tomorrow_pm25==past_tomorrow_pm25)
+	{
+		stat='c';
+	}
+	if(tomorrow_pm25<past_tomorrow_pm25)
+	{
+		stat='d';
+	}
+	return stat;
+}
+
 int main()
 {
 	
 	time_t t;
 	struct tm *p;
 	
-	double today_pm25,tomorrow_pm25,past_tomorrow_pm25=-1;
+	double today_pm25;
 	char stat='c';
 
 	double tt[VALUE_NUMBER];
 	char buff[BUFFER_SIZE]={0};
 	
+	correct_time();
 	system("python getlocation.py");
 	system("python GetImportant.py");
 	
@@ -65,7 +96,8 @@ int main()
 	}
 	init(SSD1306_SWITCHCAPVCC);
 	today_pm25=get_current_pm25();
-	sprintf(buff,"a%.2f",today_pm25);
+	stat=run();
+	sprintf(buff,"a%.2f;%c",today_pm25,stat);
 	run_char(buff);
 	display();
 	while(1)
@@ -82,35 +114,13 @@ int main()
 			}
 			else if(19==p->tm_hour)
 			{
-				tomorrow_pm25=predict_pm25();
-				if(-1==past_tomorrow_pm25)
-				{
-					past_tomorrow_pm25=tomorrow_pm25;
-					today_pm25=get_current_pm25(); //run download function
-					sprintf(buff,"a%.2f",today_pm25);
-					run_char(buff);
-					continue;
-				}				
-
-				if(tomorrow_pm25>past_tomorrow_pm25)
-				{
-					stat='b';
-				}
-				if(tomorrow_pm25==past_tomorrow_pm25)
-				{
-					stat='c';
-				}
-				if(tomorrow_pm25<past_tomorrow_pm25)
-				{
-					stat='d';
-				}
-				past_tomorrow_pm25=tomorrow_pm25;
+				stat=run();
 				sprintf(buff,"a%.2f;%c",today_pm25,stat);
 				run_char(buff);
 			}
 			
 		}
-		sleep(1);
+		sleep(10);
 	}
 	return 0;
 }
