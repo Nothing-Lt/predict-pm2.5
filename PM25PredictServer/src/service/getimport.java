@@ -42,7 +42,7 @@ public class getimport extends HttpServlet {
 	public void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 
-		String strCity=request.getHeader("city");
+		String strCity=request.getParameter("city");
 		if(null==strCity){
 			strCity="Beijing";
 		}
