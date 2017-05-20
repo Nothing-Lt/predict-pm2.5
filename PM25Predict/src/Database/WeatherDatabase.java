@@ -55,32 +55,14 @@ public class WeatherDatabase {
 	public boolean CreateWeatherTable()
 	{
 		String sql="CREATE TABLE WEATHER (DAYDATE VARCHAR(20),"+
-                "LOCATION VARCHAR(30),"+
-				"MEANDEWPOINT  DOUBLE,"+
-                "AVERRAGETEMP  DOUBLE,"+ 
-                "MAXEYESIGHT   DOUBLE,"+
-                "MAXPRESSURE   DOUBLE,"+
-                "MAXSWEAT      DOUBLE,"+
-                "MAXTEMP       DOUBLE,"+
-                "MAXWINSPEED   DOUBLE,"+
-                "RAIN          DOUBLE,"+
-                "WINDIRDEGREE  DOUBLE,"+
-                "MEANEYESIGHT  DOUBLE,"+
-                "MEANPRESSURE  DOUBLE,"+
-                "MEANWINDSPEED DOUBLE,"+
-                "MEANSWEAT     DOUBLE,"+
-                "MINDEWPOINT   DOUBLE,"+
-                "MINEYESIGHT   DOUBLE,"+
-                "MINPRESSURE   DOUBLE,"+
-                "MINSWEAT      DOUBLE,"+
-                "MINTEMP       DOUBLE,"+
+				"LOCATION      VARCHAR(30),"+
                 "AQI           DOUBLE,"+
                 "CO            DOUBLE,"+
                 "NO2           DOUBLE,"+
                 "O3            DOUBLE,"+
                 "SO2           DOUBLE,"+
                 "PM10          DOUBLE,"+
-                "PM25          DOUBLE," +
+                "PM25          DOUBLE,"+
                 "PRIMARY KEY(DAYDATE,LOCATION));";
                 
                 try {
@@ -108,30 +90,8 @@ public class WeatherDatabase {
 	
 	public boolean InsertWeatherObject(Weather w)
 	{
-		Weather w_temp=this.GetWeatherObject(w.getStrDate(), w.getStrLocation());
-		if(null!=w_temp){
-			return false;
-		}
-		String sql="INSERT INTO WEATHER VALUES ('"+w.getStrDate()    +"',"+    //DAY_DATE
-									  "'"+ w.getStrLocation()          +"',"+
-											  w.getMeanDewPoint()    +","+    //MEANDEWPOINT
-											  w.getAverrageTemp()    +","+    //AVERRAGETEMP
-											  w.getMaxEyeSight_KM()  +","+  //MAXEYESIGHT
-											  w.getMaxPressure_hPa() +","+ //MAXPRESSURE
-											  w.getMaxSweat()        +","+        //MAXSWEAT
-											  w.getMaxTemp_C()       +","+       //MAXTEMP
-											  w.getMaxWindSpeed_KM() +","+ //MAXWINSPEED
-											  w.getRain_MM()         +","+         //RAIN
-											  w.getWindDirDegrees()  +","+  //WINDIRDEGREE
-											  w.getMeanEyeSight_KM() +","+ //MEANEYESIGHT
-											  w.getMeanPressure_hPa()+","+ //MEANPRESSURE
-											  w.getMeanWindSpeed_KM()+","+ //MEANWINDSPEED
-											  w.getMeanSweat()       +","+
-											  w.getMinDewPoint()     +","+      //MINDEWPOINT
-											  w.getMinEyeSight_KM()  +","+   //MINEYESIGHT
-											  w.getMinPressure_hPa() +","+  //MINPRESSURE
-											  w.getMinSweat()        +","+         //MINSWEAT
-											  w.getMinTemp_C()       +","+        //MINTEMP
+		String sql="INSERT IGNORE INTO WEATHER VALUES ('"+w.getStrDate()    +"',"+    //DAY_DATE
+										  "'"+w.getStrLocation()     +"',"+
 											  w.getAqi()             +","+              //AQI
 											  w.getCo()              +","+               //CO
 											  w.getNo2()             +","+              //NO2
@@ -161,32 +121,14 @@ public class WeatherDatabase {
 			if(null!=result&&result.next()){
 				w=new Weather();
 				w.setStrDate(strDate);
-				w.setStrLocation(strLocation);
+				w.setStrLocation("LOCATION");
 				w.setAqi(result.getDouble("AQI"));
-				w.setAverrageTemp(result.getDouble("AVERRAGETEMP"));
 				w.setCo(result.getDouble("CO"));
-				w.setMaxEyeSight_KM(result.getDouble("MAXEYESIGHT"));;
-				w.setMaxPressure_hPa(result.getDouble("MAXPRESSURE"));
-				w.setMaxSweat(result.getDouble("MAXSWEAT"));
-				w.setMaxTemp_C(result.getDouble("MAXTEMP"));
-				w.setMaxWindSpeed_KM(result.getDouble("MAXWINSPEED"));
-				w.setMeanDewPoint(result.getDouble("MEANDEWPOINT"));
-				w.setMeanEyeSight_KM(result.getDouble("MEANEYESIGHT"));
-				w.setMeanPressure_hPa(result.getDouble("MEANPRESSURE"));
-				w.setMeanSweat(result.getDouble("MEANSWEAT"));
-				w.setMeanWindSpeed_KM(result.getDouble("MEANWINDSPEED"));
-				w.setMinDewPoint(result.getDouble("MINDEWPOINT"));
-				w.setMinEyeSight_KM(result.getDouble("MINEYESIGHT"));
-				w.setMinPressure_hPa(result.getDouble("MINPRESSURE"));
-				w.setMinSweat(result.getDouble("MINSWEAT"));
-				w.setMinTemp_C(result.getDouble("MINTEMP"));
 				w.setNo2(result.getDouble("NO2"));
 				w.setO3(result.getDouble("O3"));
 				w.setPM10(result.getDouble("PM10"));
 				w.setPM25(result.getDouble("PM25"));
-				w.setRain_MM(result.getDouble("RAIN"));
 				w.setSo2(result.getDouble("SO2"));
-				w.setWindDirDegrees(result.getDouble("WINDIRDEGREE"));
 			}	
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
