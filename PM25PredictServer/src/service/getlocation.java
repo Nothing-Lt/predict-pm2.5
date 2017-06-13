@@ -63,10 +63,10 @@ public class getlocation extends HttpServlet {
 	 */
 	public void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		System.out.println("adadfadsfadsfadf");
 		String strJson=getLocation_Json(null);
 		//String strIP=this.getIP(request);
 		//String strJson=getLocation_Json(strIP);
+		System.out.println(strJson);
 		PrintWriter out = response.getWriter();
 		out.print(strJson);
 		out.flush();
