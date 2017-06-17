@@ -102,7 +102,7 @@ public class RBFPredict extends Predict {
 			
 			for(int j=0;j<this.InputLayerNeuralNumber;j++){
 				doubleCenterDelta[j]=doubleValue[0][j]-doubleCenter[i][j];
-				doubleCenterDelta[j]=doubleError2[i]*doubleCenterDelta[j]/(doubleDelta[i]*doubleDelta[i]*doubleDelta[i]);
+				doubleCenterDelta[j]=doubleError2[i]*doubleCenterDelta[j]/(doubleDelta[i]*doubleDelta[i]);
 			}
 			
 			double doubleTemp=0;
