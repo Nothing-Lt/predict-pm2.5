@@ -1,5 +1,6 @@
 #include "SSD1306.h"
 #include "font.h"
+#include <string.h>
 
 static unsigned char buffer[SSD1306_LCDHEIGHT * SSD1306_LCDWIDTH / 8] = {0x00};
 
@@ -121,14 +122,7 @@ void draw_bitmap(short x,short y,const unsigned char *bitmap,short w,short h,uns
 
 void clear_screen()
 {
-	int i=0,j=0;
-	for(i=0;i<64;i=i+16)
-	{
-		for(j=0;j<128;j=j+16)
-		{
-			draw_bitmap(j,i,BLANK,HAN_WORD_WIDTH,HAN_WORD_HEIGHT,WHITE);
-		}
-	}
+	memset(buffer,0,SSD1306_LCDHEIGHT * SSD1306_LCDWIDTH / 8);
 }
 
 void run_char(char data[])
