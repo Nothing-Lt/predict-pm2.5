@@ -62,31 +62,6 @@ public class HistoryWeather {
 		w.setStrDate(this.strDate);
 		w.setStrLocation(strCityName);
 		return w;
-		/*try {
-			FileReader fr=new FileReader(this.strFileName);
-			LineNumberReader lnr=new LineNumberReader(fr);
-			
-			String str=null;
-			while((str=lnr.readLine())!=null){
-				if(str.equals("\t\tHourly Weather History &amp; Observations")){
-					break;
-				}
-			}
-			if(null!=str){
-				w=this.GetWeatherObjectLine(lnr);
-				if(!this.checkNotErrorVersion(w)){
-					w=this.GetWeatherObjectLine_ErrorVersion(lnr);	
-				}
-			}
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-			LogFile logfile=new LogFile();
-			logfile.LogError("[In WeatherUnderground.HistoryWeather FILE NOT FOUND]"+this.strFileName);
-		}
-		finally{
-			return w;
-		}*/
 	}
 	
 	private Weather GetWeatherObjectLine_ErrorVersion(LineNumberReader lnr)
@@ -133,10 +108,6 @@ public class HistoryWeather {
 						dblTemp[hour]=Double.MIN_VALUE;
 					}
 					
-					//get dewpoint 
-					//str=lnr.readLine();
-					//str=lnr.readLine();
-					//str=lnr.readLine();
 					str=lnr.readLine();
 					str=lnr.readLine();
 					str=lnr.readLine();

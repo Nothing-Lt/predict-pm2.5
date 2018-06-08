@@ -12,15 +12,9 @@ import PM25Predict.ANNPredict;
 public class test {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-		//getgraph();
-		//getData("Beijing");
-		RBFtrain();
+		RBFtrain(2,7,30,1,0.02);
 		RBFtets();
-		//ANNtrain();
-		//ANNtets();
-		//fun();
 	}
 	
 	
@@ -54,7 +48,7 @@ public class test {
 	
 	static public  void RBFtrain()
 	{
-		Predict p=new RBFPredict();
+		Predict p=new RBFPredict(2,7,30,1,0.02);
 		p.ResetWeight_Threadhold();
 		
 		WeatherDatabase wdb=new WeatherDatabase();

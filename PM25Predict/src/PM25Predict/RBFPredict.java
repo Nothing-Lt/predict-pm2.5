@@ -10,11 +10,11 @@ import java.util.Random;
 
 public class RBFPredict extends Predict {
 	
-	private final int LayerNumber=2;
-	private final int HidenLayerNeuralNumber=30;
-	private final int OutputLayerNeuralNumber=1;
-	private final int InputLayerNeuralNumber=7;
-	private final double LearnRate=0.02;
+	private final int LayerNumber;
+	private final int HidenLayerNeuralNumber;
+	private final int OutputLayerNeuralNumber;
+	private final int InputLayerNeuralNumber;
+	private final double LearnRate;
 	
 	double doubleValue[][] =null;
 	double doubleWeight[]  =null;
@@ -24,8 +24,15 @@ public class RBFPredict extends Predict {
 	double doubleTarget;
 	double doubleResult;
 	
-	public RBFPredict()
+	public RBFPredict(int LayerNumber,int InputLayerNeuralNumber,int HidenLayerNeuralNumber,int OutputLayerNeuralNumber,double LearnRate)
 	{
+
+		this.LayerNumber            =LayerNumber;
+		this.InputLayerNeuralNumber =InputLayerNeuralNumber;
+		this.HidenLayerNeuralNumber =HidenLayerNeuralNumber;
+		this.OutputLayerNeuralNumber=OutputLayerNeuralNumber;
+		this.LearnRate              =LearnRate;
+
 		doubleValue   =new double[this.LayerNumber][];
 		doubleValue[1]=new double[this.HidenLayerNeuralNumber];
 		

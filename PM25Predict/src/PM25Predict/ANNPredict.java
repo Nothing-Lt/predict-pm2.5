@@ -29,25 +29,25 @@ public class ANNPredict extends Predict{
 	
 	public ANNPredict()
 	{
-		this.doubleWeight=new double[ANNPredict.LayerNumber][][];
-		this.doubleWeight[0]=new double[ANNPredict.InputLayerNeuralNumber][ANNPredict.HidenNeuralNumber];
-		this.doubleWeight[1]=new double[ANNPredict.HidenNeuralNumber][ANNPredict.OutputLayerNeuralNumber];
+		this.doubleWeight 			 =new double[ANNPredict.LayerNumber][][];
+		this.doubleWeight[0]		 =new double[ANNPredict.InputLayerNeuralNumber][ANNPredict.HidenNeuralNumber];
+		this.doubleWeight[1]		 =new double[ANNPredict.HidenNeuralNumber][ANNPredict.OutputLayerNeuralNumber];
 		
-		this.doubleThreadhold=new double[ANNPredict.LayerNumber][];
-		this.doubleThreadhold[0]=new double[ANNPredict.HidenNeuralNumber];
-		this.doubleThreadhold[1]=new double[ANNPredict.OutputLayerNeuralNumber];
+		this.doubleThreadhold 		 =new double[ANNPredict.LayerNumber][];
+		this.doubleThreadhold[0]	 =new double[ANNPredict.HidenNeuralNumber];
+		this.doubleThreadhold[1]	 =new double[ANNPredict.OutputLayerNeuralNumber];
 		
-		this.doubleWeightDelta=new double[ANNPredict.LayerNumber][][];
-		this.doubleWeightDelta[0]=new double[ANNPredict.InputLayerNeuralNumber][ANNPredict.HidenNeuralNumber];
-		this.doubleWeightDelta[1]=new double[ANNPredict.HidenNeuralNumber][ANNPredict.OutputLayerNeuralNumber];
+		this.doubleWeightDelta		 =new double[ANNPredict.LayerNumber][][];
+		this.doubleWeightDelta[0]	 =new double[ANNPredict.InputLayerNeuralNumber][ANNPredict.HidenNeuralNumber];
+		this.doubleWeightDelta[1]	 =new double[ANNPredict.HidenNeuralNumber][ANNPredict.OutputLayerNeuralNumber];
 		
-		this.doubleThreadholdDelta=new double[ANNPredict.LayerNumber][];
+		this.doubleThreadholdDelta	 =new double[ANNPredict.LayerNumber][];
 		this.doubleThreadholdDelta[0]=new double[ANNPredict.HidenNeuralNumber];
 		this.doubleThreadholdDelta[1]=new double[ANNPredict.OutputLayerNeuralNumber];
 
-		this.doubleError=new double[ANNPredict.LayerNumber][];
-		this.doubleError[0]=new double[ANNPredict.HidenNeuralNumber];
-		this.doubleError[1]=new double[ANNPredict.OutputLayerNeuralNumber];
+		this.doubleError			 =new double[ANNPredict.LayerNumber][];
+		this.doubleError[0]			 =new double[ANNPredict.HidenNeuralNumber];
+		this.doubleError[1]			 =new double[ANNPredict.OutputLayerNeuralNumber];
 	}
 	
 	public void SetInputValue(double doubleInput[],double doubleTarget)
